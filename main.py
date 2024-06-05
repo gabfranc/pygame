@@ -2,7 +2,6 @@ import pygame
 import time
 import random
 
-# Initialize Pygame
 pygame.init()
 
 WIDTH, HEIGHT = 1000, 700
@@ -40,7 +39,7 @@ def main():
 
         draw(player)
 
-    pygame.quit()  # Call pygame.quit() with parentheses
+    pygame.quit()  
 
 if __name__ == "__main__":
     main()
